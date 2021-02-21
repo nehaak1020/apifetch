@@ -19,6 +19,7 @@ h2{
 }
 .text-content h5 {
     font-size: 1.25rem;
+    text-align: left;
 }
 .card{
     border:none;
@@ -41,7 +42,9 @@ h2{
     font-size: 1.12rem;
 }
 .userlink{
-    word-wrap: break-word;
+    width: 100%;
+    display: block;
+    word-break: break-word;
 }
 .userlink a{
     text-decoration: none;
