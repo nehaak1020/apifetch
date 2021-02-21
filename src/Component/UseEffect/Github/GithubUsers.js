@@ -17,7 +17,8 @@ const GithubUsers = ({users}) => {
                                         <img src={avatar_url} className="img-fluid" alt="" />
                                         <div className="text-content">
                                             <h5 className="card-title text-start">{login.toUpperCase()}</h5>
-                                            <p className="card-text text-start"><Link to={url} target='_blank'>{url}</Link></p>
+                                            <h5>Github Profile Link:</h5>
+                                            <p className="userlink text-start"><Link to={url} target='_blank'>{url}</Link></p>
                                         </div>
                                     </div>
                                     <div className="card-body">

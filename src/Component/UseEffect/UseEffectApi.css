@@ -40,6 +40,13 @@ h2{
     font-weight: 500;
     font-size: 1.12rem;
 }
+.userlink{
+    word-wrap: break-word;
+}
+.userlink a{
+    text-decoration: none;
+    color:#555;
+}
 @media screen and (max-width:600px){
     .image{
         flex-direction: column;
