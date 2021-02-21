@@ -9,7 +9,7 @@ const GithubUsers = ({users}) => {
                 <div className="row">
                     {
                         users.map((currElem,i) => {
-                            const { login, avatar_url, url} = currElem
+                            const { login, avatar_url, html_url} = currElem
                             return(
                             <div className="col-12 col-md-4 mt-5" key={i}>
                                 <div className="card">
@@ -18,7 +18,7 @@ const GithubUsers = ({users}) => {
                                         <div className="text-content">
                                             <h5 className="card-title text-start">{login.toUpperCase()}</h5>
                                             <h5>Github Profile Link:</h5>
-                                            <p className="userlink text-start"><a href={url} target='_blank'>{url}</a></p>
+                                            <p className="userlink text-start"><a href={html_url} target='_blank'>{html_url}</a></p>
                                         </div>
                                     </div>
                                     <div className="card-body">
