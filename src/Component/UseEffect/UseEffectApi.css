@@ -1,0 +1,47 @@
+h2{
+    font-weight: 700;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: #222;
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px
+}
+.image img {
+    width: 150px;
+    height: 150px;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 1.50rem;
+}
+.text-content h5 {
+    font-size: 1.25rem;
+}
+.card{
+    border:none;
+    border-radius: 10px;
+    /* background-color: #fff; */
+    background: #ffffff;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    
+}
+.articles, .followers, .ratings{
+    font-size: 1.15rem;
+    color:#000;
+    display: flex;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+.number1, .number2, .number3{
+    display: flex;
+    font-weight: 500;
+    font-size: 1.12rem;
+}
+@media screen and (max-width:600px){
+    .image{
+        flex-direction: column;
+    }
+}
