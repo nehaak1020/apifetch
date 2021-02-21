@@ -18,7 +18,7 @@ const GithubUsers = ({users}) => {
                                         <div className="text-content">
                                             <h5 className="card-title text-start">{login.toUpperCase()}</h5>
                                             <h5>Github Profile Link:</h5>
-                                            <p className="userlink text-start"><a to={url} target='_blank'>{url}</a></p>
+                                            <p className="userlink text-start"><a href={url} target='_blank'>{url}</a></p>
                                         </div>
                                     </div>
                                     <div className="card-body">
