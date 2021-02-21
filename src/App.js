@@ -1,10 +1,13 @@
 import './App.css';
 import UseEffectApi from './Component/UseEffect/UseEffectApi';
+import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-        <UseEffectApi/>
+      <Router>
+      <UseEffectApi/>
+      </Router>
     </div>
   );
 }
